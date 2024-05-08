@@ -1,12 +1,13 @@
-import Image from "next/image";
-
 export const SubscribeContainer = () => {
 	return (
-		<nav className="w-full bg-white">
-			<div className="max-w-screen-xl mx-auto h-[72px] flex justify-between items-center">
-				<Image src="/images/logo.svg" alt="Logo" width={187} height={40} priority />
-				<Image src="/images/cart.svg" alt="Logo" width={24} height={24} priority />
-			</div>
-		</nav>
+		<div className="w-full flex justify-center items-center bg-yellow-500">
+			<h1>Užsiprenumeruokit ELNIS naujienlaiškį</h1>
+			<div>Įveskite savo el pašto adresą</div>
+			<button> Prenumeruoti</button>
+			<p>
+				Užsiprenumeruokite elnis.lt naujienlaiškį ir gaukite informaciją apie naujausius straipsnius, naujas
+				darbo pozicijas ir kt. aktualią informaciją.
+			</p>
+		</div>
 	);
 };

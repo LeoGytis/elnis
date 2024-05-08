@@ -1,7 +1,9 @@
 import {ContactsContainer} from "./components/ContactsContainer";
 import {HeaderContainer} from "./components/HeaderContainer";
+import {InfoContainer} from "./components/InfoContainer";
 import {NavBar} from "./components/NavBar";
 import {SliderContainer} from "./components/SliderContainer";
+import {SubscribeContainer} from "./components/SubscribeContainer";
 
 export default function Home() {
 	return (
@@ -11,7 +13,8 @@ export default function Home() {
 				<HeaderContainer />
 				<SliderContainer />
 				<ContactsContainer />
-				<div className="max-w-screen-xl mx-auto flex flex-col items-center bg-white text-black"></div>
+				<InfoContainer />
+				<SubscribeContainer />
 			</div>
 		</main>
 	);
