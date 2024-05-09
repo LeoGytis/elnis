@@ -6,25 +6,21 @@ export const HeaderContainer = () => {
 	}
 
 	return (
-		<div className="w-full flex justify-center bg-[#23A094] py-16 border-b-4 border-black">
-			<div className="max-w-screen-xl flex flex-col gap-4">
-				<div>
-					<div className="bg-[#FFC900] rounded-[70px] border-4 text-[34px] font-semibold border-black px-8 py-2 shadow-right-bottom">
-						Sveiki atvykę! Pasirinkite Jus dominančią temą:
-					</div>
+		<div className="w-full flex justify-center items-center bg-[#23A094] border-b-8 border-black py-[152px]">
+			<div className="max-w-screen-xl flex flex-col gap-[57px]">
+				<div className="bg-[#FFC900] rounded-[70px] border-4 text-[34px] text-center font-semibold border-black px-8 py-2 shadow-right-bottom">
+					Sveiki atvykę! Pasirinkite Jus dominančią temą:
 				</div>
-				<div className="w-[500px] flex flex-wrap gap-4">
-					<HeaderButton color={getRandomColor()} text="Labas rytas" />
-					<div>Reikalinga konsultacija</div>
-					<div>Nauja svetainė</div>
-					<div>Pateikti užduoti</div>
-					<div>Nauja el.parduotuvė</div>
-					<div>Svetainės atnaujinimas</div>
-					<div>Priežiūros paslauga</div>
-					<div>Skubi pagalba</div>
-					<div>Klausimynas</div>
+				<div className="flex justify-center items-center flex-wrap gap-8">
+					<HeaderButton color={getRandomColor()} text="Reikalinga konsultacija" />
+					<HeaderButton color={getRandomColor()} text="Nauja svetainė" />
+					<HeaderButton color={getRandomColor()} text="Pateikti užduoti" />
+					<HeaderButton color={getRandomColor()} text="Nauja el.parduotuvė" />
+					<HeaderButton color={getRandomColor()} text="Svetainės atnaujinimas" />
+					<HeaderButton color={getRandomColor()} text="Priežiūros paslauga" />
+					<HeaderButton color={getRandomColor()} text="Skubi pagalba" />
+					<HeaderButton color={getRandomColor()} text="Klausimynas" />
 				</div>
-				ciaa viskas
 			</div>
 		</div>
 	);

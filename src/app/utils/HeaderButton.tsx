@@ -1,3 +1,5 @@
+import {FiHexagon} from "react-icons/fi";
+
 interface HeaderButtonProps {
 	text: string;
 	color?: string;
@@ -6,8 +8,8 @@ interface HeaderButtonProps {
 
 export const HeaderButton = ({text, color, link}: HeaderButtonProps) => {
 	return (
-		<div className="text-black text-lg bg-white rounded-[30px] border-[3px] border-[#333333] p-3 px-6 shadow-right-bottom-small">
-			<div>{color}</div>
+		<div className="flex gap-[13px] items-center text-black text-lg bg-white rounded-[30px] border-[3px] border-[#333333] p-3 px-6 shadow-right-bottom-small">
+			<FiHexagon fill={color} />
 			<div>{text}</div>
 		</div>
 	);
