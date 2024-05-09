@@ -6,8 +6,9 @@ interface HeaderButtonProps {
 
 export const HeaderButton = ({text, color, link}: HeaderButtonProps) => {
 	return (
-		<div className="flex flex-wrap justify-center gap-4 border-4 border-red rounded-full bg-white text-black p-4">
-			{text}
+		<div className="text-black text-lg bg-white rounded-[30px] border-[3px] border-[#333333] p-3 px-6 shadow-right-bottom-small">
+			<div>{color}</div>
+			<div>{text}</div>
 		</div>
 	);
 };

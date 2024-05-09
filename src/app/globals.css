@@ -30,3 +30,7 @@ body {
 .shadow-right-bottom {
 	box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 1);
 }
+
+.shadow-right-bottom-small {
+	box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 1);
+}
