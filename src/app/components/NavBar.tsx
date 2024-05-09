@@ -17,7 +17,7 @@ export const NavBar = () => {
 						<div>Projektai</div>
 						<div>Mūsų klientai</div>
 					</div>
-					<Image src="/images/logo.png" alt="Logo" width={151} height={43} />
+					<Image src="/images/logo_elnis.png" alt="Logo" width={151} height={43} />
 					<div className="flex gap-20">
 						<div>Kontaktai</div>
 						<div>Blogas</div>
