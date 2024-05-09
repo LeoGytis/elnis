@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {FaRegCircle} from "react-icons/fa6";
 
 export const SliderContainer = () => {
 	return (
@@ -31,6 +32,13 @@ export const SliderContainer = () => {
 						<p>Kostas Kanapeckas</p>
 						<p>— Jurgis DID —</p>
 					</div>
+				</div>
+				<div className="flex items-center gap-2">
+					<FaRegCircle />
+					<div className="w-10 h-[18px] rounded-full bg-black"></div>
+					<FaRegCircle />
+					<FaRegCircle />
+					<FaRegCircle />
 				</div>
 				<div className="w-full flex justify-center">
 					<Image src="/images/brands2.png" alt="Logo" width={1800} height={40} priority />
