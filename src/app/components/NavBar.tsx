@@ -3,18 +3,22 @@ import Image from "next/image";
 export const NavBar = () => {
 	return (
 		<>
-			<div className="h-8 flex justify-center bg-pink-500 text-black ">
-				Pasinaudokite skaičiuokle ir sužinokite savo projekto kainą.
+			<div className="h-10 flex justify-center items-center text-black text-[17px] bg-[#FF90E8]">
+				Pasinaudokite
+				<a href="#" className="underline mx-1">
+					skaičiuokle
+				</a>
+				ir sužinokite savo projekto kainą.
 			</div>
-			<nav className="w-full bg-white border-y-4 border-black">
-				<div className="max-w-screen-xl mx-auto h-[72px] flex justify-between items-center">
-					<div className="flex gap-10 text-black">
+			<nav className="w-full bg-white border-y-[3px] border-black">
+				<div className="max-w-screen-2xl mx-auto flex justify-between items-center text-lg text-black font-medium py-6 px-4">
+					<div className="flex gap-20">
 						<div>Atsiliepimai</div>
 						<div>Projektai</div>
 						<div>Mūsų klientai</div>
 					</div>
-					<Image src="/images/logo.png" alt="Logo" width={187} height={40} priority />
-					<div className="flex gap-10 text-black">
+					<Image src="/images/logo.png" alt="Logo" width={151} height={43} />
+					<div className="flex gap-20">
 						<div>Kontaktai</div>
 						<div>Blogas</div>
 						<div>Klausimynas</div>

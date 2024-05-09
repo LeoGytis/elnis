@@ -2,11 +2,11 @@ import {HeaderButton} from "../utils/HeaderButton";
 
 export const HeaderContainer = () => {
 	return (
-		<div className="w-full flex justify-center bg-emerald-600 py-16 border-b-4 border-black">
+		<div className="w-full flex justify-center bg-[#23A094] py-16 border-b-4 border-black">
 			<div className="max-w-screen-xl flex flex-col gap-4">
 				<div>
-					<div className="p-8 bg-yellow-600 rounded-full border-y-4 border-black">
-						Sveik atvyke pasirinkite dominnancia temą:
+					<div className="bg-[#FFC900] rounded-[70px] border-4 text-[34px] font-semibold border-black px-8 py-2 shadow-right-bottom">
+						Sveiki atvykę! Pasirinkite Jus dominančią temą:
 					</div>
 				</div>
 				<div className="w-[500px] flex flex-wrap gap-4">
