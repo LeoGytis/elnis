@@ -1,10 +1,8 @@
 import {HeaderButton} from "../utils/HeaderButton";
-
+export function getRandomColor(): string {
+	return "#" + Math.floor(Math.random() * 16777215).toString(16);
+}
 export const HeaderContainer = () => {
-	function getRandomColor(): string {
-		return "#" + Math.floor(Math.random() * 16777215).toString(16);
-	}
-
 	return (
 		<div className="w-full flex justify-center items-center bg-[#23A094] border-b-8 border-black py-[152px]">
 			<div className="max-w-screen-xl flex flex-col gap-[57px]">

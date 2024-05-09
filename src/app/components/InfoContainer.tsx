@@ -1,8 +1,10 @@
 import Image from "next/image";
+import {HeaderButton} from "../utils/HeaderButton";
+import {getRandomColor} from "./HeaderContainer";
 
 export const InfoContainer = () => {
 	return (
-		<div className="w-full flex gap-8 bg-black text-white">
+		<div className="w-full flex bg-black text-white pt-[160px] pb-[189px] px-[100px]">
 			<div className="w-1/3 flex flex-col gap-8 border border-pink-400 p-16">
 				<Image src="/images/elnis_logo.png" alt="Logo" width={200} height={400} priority />
 				<p>
@@ -12,8 +14,8 @@ export const InfoContainer = () => {
 				<p>@ELNIS, 2024</p>
 			</div>
 
-			<div className="w-1/3 flex flex-col gap-8 border border-pink-400 p-16">
-				<h1 className="text-4xl">Naujausi straipsniai</h1>
+			<div className="w-1/3 flex flex-col gap-8 border border-red-400 p-16">
+				<h1 className="text-[32px] font-semibold pb-[92px]">Naujausi straipsniai</h1>
 				<div className="flex gap-4">
 					<Image src="/images/straipsniai01.png" alt="Logo" width={120} height={120} priority />
 					<div>
@@ -36,8 +38,22 @@ export const InfoContainer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="p-16">
-				<h1 className="text-4xl">Žymų debesis</h1>
+			<div className="w-1/3 flex justify-center">
+				<div className="flex flex-col justify-center items-center ">
+					<h1 className="text-[32px] font-semibold pb-[92px]">Žymų debesis</h1>
+					<div className="w-1/2 flex flex-wrap gap-6">
+						<HeaderButton color={getRandomColor()} text="El.parduotuvė" />
+						<HeaderButton color={getRandomColor()} text="SSL" />
+						<HeaderButton color={getRandomColor()} text="Atnaujinimas" />
+						<HeaderButton color={getRandomColor()} text="Skaičiuoklė" />
+						<HeaderButton color={getRandomColor()} text="El. svetainė" />
+						<HeaderButton color={getRandomColor()} text="Priežiūra" />
+						<HeaderButton color={getRandomColor()} text="Pagalba" />
+						<HeaderButton color={getRandomColor()} text="Kontaktai" />
+						<HeaderButton color={getRandomColor()} text="Klausimynas" />
+						<HeaderButton color={getRandomColor()} text="Straipsniai" />
+					</div>
+				</div>
 			</div>
 		</div>
 	);
