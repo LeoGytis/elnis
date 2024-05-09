@@ -3,29 +3,33 @@ import Image from "next/image";
 export const SliderContainer = () => {
 	return (
 		<div className="">
-			<div className="flex flex-col justify-center items-center ">
+			<div className="flex flex-col gap-20 justify-center items-center py-20">
 				<div className="w-full flex justify-center">
 					<Image src="/images/brands.png" alt="Logo" width={1800} height={40} priority />
 				</div>
-				<div className="max-w-screen-xl flex gap-8 p-8">
-					<div className="h-60 border-4 border-black bg-orange-400">
-						<h1>TNDEMO</h1>
-						<p>Ačiū, puikus darbas, tikiuosi daugiau ateityje! Paulius Sanajevas — Tandemo —</p>
+				<div className="max-w-screen-xl flex gap-8">
+					<div className="w-1/3 h-[390px] font-light border-[3px] border-black rounded bg-[#FFC900] shadow-right-bottom-small px-[45px] py-10">
+						<h1 className="text-2xl font-bold pb-10">TANDEMO</h1>
+						<p className="pb-8">Ačiū, puikus darbas, tikiuosi daugiau ateityje!</p>
+						<p>Paulius Sanajevas</p>
+						<p>— Tandemo —</p>
 					</div>
-					<div className="h-60 border-4 border-black bg-violet-400">
-						<h1>Exterus</h1>
-						<p>Dirbti su jumis yra gera ir profesionalu. Turėsime dar daug reikalų</p>
-						<p>Audrius Valatkevičius — Exterus —</p>
+					<div className="w-1/3 h-[390px] border-[3px] border-black rounded bg-[#90A8ED] shadow-right-bottom-small px-[45px] py-10">
+						<h1 className="text-2xl font-bold pb-10">EXTERUS</h1>
+						<p className="pb-8">Dirbti su jumis yra gera ir profesionalu. Turėsime dar daug reikalų</p>
+						<p>Audrius Valatkevičius</p>
+						<p>— Exterus —</p>
 					</div>
-					<div className="h-60 border-4 border-black bg-red-500">
-						<h1>Jurgis DID</h1>
-						<p>
+					<div className="w-1/3 h-[390px] border-[3px] border-black rounded bg-[#E2442F] shadow-right-bottom-small px-[45px] py-10">
+						<h1 className="text-2xl font-bold pb-10">Jurgis DID</h1>
+						<p className="pb-8">
 							“Fantastiškai produktyvu, profesionalu ir operatyvu. Labiausiai žavi tai, kad kliento
 							problemos, lūkesčiai ar norai yra traktuojami, kaip savo. Taip gimsta žmogiškas ryšys bei
 							pasitikėjimas, kuris....”
 						</p>
-						<p>SKAITYTI DAUGIAU</p>
-						<p>Kostas Kanapeckas — Jurgis DID —</p>
+						<p className="text-right font-bold">SKAITYTI DAUGIAU</p>
+						<p>Kostas Kanapeckas</p>
+						<p>— Jurgis DID —</p>
 					</div>
 				</div>
 				<div className="w-full flex justify-center">
