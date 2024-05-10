@@ -1,4 +1,5 @@
 import Image from "next/image";
+import navbar_logo from "../../../public/images/navbar_logo.png";
 
 export const NavBar = () => {
 	return (
@@ -17,7 +18,7 @@ export const NavBar = () => {
 						<div>Projektai</div>
 						<div>Mūsų klientai</div>
 					</div>
-					<Image src="/images/logo_elnis.png" alt="Logo" width={151} height={43} />
+					<Image src={navbar_logo} alt="Logo" width={151} height={43} />
 					<div className="flex gap-20">
 						<div>Kontaktai</div>
 						<div>Blogas</div>
