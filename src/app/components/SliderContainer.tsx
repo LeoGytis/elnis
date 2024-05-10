@@ -1,11 +1,13 @@
 import Image from "next/image";
 import {FaRegCircle} from "react-icons/fa6";
+import brands from "../../../public/images/brands.png";
+import brands2 from "../../../public/images/brands2.png";
 
 export const SliderContainer = () => {
 	return (
 		<div className="flex flex-col gap-20 justify-center items-center py-20">
 			<div className="w-full flex justify-center">
-				<Image src="/images/brands.png" alt="Logo" width={1800} height={40} priority />
+				<Image src={brands} alt="Logo" width={1800} height={40} priority />
 			</div>
 			<div className="max-w-screen-xl flex gap-8">
 				<div className="w-1/3 h-[390px]  border-[3px] border-black rounded bg-[#FFC900] shadow-right-bottom-small px-[45px] py-8">
@@ -40,7 +42,7 @@ export const SliderContainer = () => {
 				<FaRegCircle />
 			</div>
 			<div className="w-full flex justify-center">
-				<Image src="/images/brands2.png" alt="Logo" width={1800} height={40} priority />
+				<Image src={brands2} alt="Logo" width={1800} height={40} priority />
 			</div>
 		</div>
 	);

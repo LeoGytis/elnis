@@ -1,5 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
+import brackets from "../../../public/images/brackets.png";
+import instagram from "../../../public/images/instagram.png";
+import wifi from "../../../public/images/wifi.png";
+import facebook from "../../../public/images/facebook.png";
+import internet from "../../../public/images/internet.png";
 
 export const ContactsContainer = () => {
 	return (
@@ -8,7 +13,7 @@ export const ContactsContainer = () => {
 				<div className="flex flex-col">
 					<div className="text-[48px] text-[#333333] font-extrabold pb-20">Kontaktai</div>
 					<div className="flex flex-col gap-8 text-[28px] font-semibold pb-24">
-						<Image src="/images/brackets.png" alt="Logo" width={80} height={80} priority />
+						<Image src={brackets} alt="brackets" width={80} height={80} priority />
 						<div>IĮ "ELNIS"</div>
 						<div>
 							<p>Įmonės kodas:</p>
@@ -37,16 +42,16 @@ export const ContactsContainer = () => {
 			<div className="w-1/2 flex flex-col justify-center items-center border-l-4 border-black bg-[#FFD300]">
 				<div className="relative">
 					<div className="absolute top-[-20%] left-36 z-10">
-						<Image src="/images/instagram.png" alt="Logo" width={100} height={100} priority />
+						<Image src={instagram} alt="instagram" width={100} height={100} priority />
 					</div>
 					<div className="absolute top-40 left-[-10%] z-10">
-						<Image src="/images/wifi.png" alt="Logo" width={100} height={100} priority />
+						<Image src={wifi} alt="wifi" width={100} height={100} priority />
 					</div>
 					<div className="absolute bottom-[-10%] left-2 z-10">
-						<Image src="/images/facebook.png" alt="Logo" width={100} height={100} priority />
+						<Image src={facebook} alt="facebook" width={100} height={100} priority />
 					</div>
 					<div className="">
-						<Image src="/images/internet.png" alt="Logo" width={700} height={700} priority />
+						<Image src={internet} alt="internet" width={700} height={700} priority />
 					</div>
 				</div>
 			</div>

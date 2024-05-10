@@ -1,7 +1,6 @@
 import {HeaderButton} from "../utils/HeaderButton";
-export function getRandomColor(): string {
-	return "#" + Math.floor(Math.random() * 16777215).toString(16);
-}
+import {getRandomColor} from "../utils/functions";
+
 export const HeaderContainer = () => {
 	return (
 		<div className="w-full flex justify-center items-center bg-[#23A094] border-b-8 border-black py-[152px]">
