@@ -8,44 +8,45 @@ import {getRandomColor} from "../utils/functions";
 
 export const InfoContainer = () => {
 	return (
-		<div className="w-full flex gap-32 bg-black text-white pt-[160px] pb-[189px] px-[100px]">
-			<div className="w-1/3 flex flex-col gap-8 border border-pink-400 p-16">
-				<Image src={elnis_logo} alt="elnis_logo" width={200} height={400} priority />
-				<p>
+		<section className="w-full flex gap-32 bg-black text-white pt-[160px] pb-[189px] px-[100px]">
+			<article className="w-1/3 h-[552px] flex flex-col justify-between">
+				<Image src={elnis_logo} alt="elnis_logo" width={225} height={330} priority />
+				<p className="text-lg">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in libero justo. Interdum et
 					Phasellus in libero justo.{" "}
 				</p>
-				<p>@ELNIS, 2024</p>
-			</div>
-
-			<div className="w-1/3 flex flex-col gap-8 border border-red-400">
-				<h1 className="text-[32px] font-semibold pb-[92px]">Naujausi straipsniai</h1>
-				<div className="flex gap-4">
-					<Image src={str01} alt="Logo" width={120} height={120} priority />
-					<div>
-						<h3 className="text-[15px] font-bold pb-4">SSL SERTIFIKATAS</h3>
-						<p className="text-xs">2023 12 15</p>
+				<p className="text-lg">@ELNIS, 2024</p>
+			</article>
+			<article className="w-1/3 h-[552px] flex flex-col justify-between">
+				<h1 className="text-[32px] font-semibold">Naujausi straipsniai</h1>
+				<div className="flex flex-col gap-8">
+					<div className="flex gap-4">
+						<Image src={str01} alt="Logo" width={120} height={120} priority />
+						<div>
+							<h3 className="text-[15px] font-bold pb-4">SSL SERTIFIKATAS</h3>
+							<p className="text-xs">2023 12 15</p>
+						</div>
+					</div>
+					<div className="flex gap-4">
+						<Image src={str02} alt="Logo" width={120} height={120} priority />
+						<div>
+							<h3 className="text-[15px] font-bold pb-4">
+								Pavadinimas gali būti ilgesnis, bet ne daugiau nei per 2 eilutes
+							</h3>
+							<p className="text-xs"> Data 12px</p>
+						</div>
+					</div>
+					<div className="flex gap-4">
+						<Image src={str03} alt="Logo" width={120} height={120} priority />
+						<div>
+							<h3 className="text-[15px] font-bold pb-4">Pavadinimas 15px</h3>
+							<p className="text-xs">Data 12px</p>
+						</div>
 					</div>
 				</div>
-				<div className="flex gap-4">
-					<Image src={str02} alt="Logo" width={120} height={120} priority />
-					<div>
-						<h3 className="text-[15px] font-bold pb-4">
-							Pavadinimas gali būti ilgesnis, bet ne daugiau nei per 2 eilutes
-						</h3>
-						<p className="text-xs"> Data 12px</p>
-					</div>
-				</div>
-				<div className="flex gap-4">
-					<Image src={str03} alt="Logo" width={120} height={120} priority />
-					<div>
-						<h3 className="text-[15px] font-bold pb-4">Pavadinimas 15px</h3>
-						<p className="text-xs">Data 12px</p>
-					</div>
-				</div>
-			</div>
-			<div className="w-1/3 flex flex-col">
-				<h1 className="text-[32px] font-semibold pb-[92px]">Žymų debesis</h1>
+			</article>
+			<article className="w-1/3 h-[552px] flex flex-col justify-between">
+				<h1 className="text-[32px] font-semibold">Žymų debesis</h1>
 				<div className="flex flex-wrap gap-6">
 					<HeaderButton color={getRandomColor()} text="El.parduotuvė" />
 					<HeaderButton color={getRandomColor()} text="SSL" />
@@ -58,7 +59,7 @@ export const InfoContainer = () => {
 					<HeaderButton color={getRandomColor()} text="Klausimynas" />
 					<HeaderButton color={getRandomColor()} text="Straipsniai" />
 				</div>
-			</div>
-		</div>
+			</article>
+		</section>
 	);
 };
