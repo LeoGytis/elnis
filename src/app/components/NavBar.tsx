@@ -11,7 +11,7 @@ export const NavBar = () => {
 				ir sužinokite savo projekto kainą.
 			</div>
 			<nav className="w-full bg-white border-y-[3px] border-black">
-				<div className="max-w-screen-2xl mx-auto flex justify-between items-center text-lg text-black font-medium py-6 px-4">
+				<div className="max-w-screen-2xl mx-auto flex justify-between items-center text-lg text-black font-medium py-6">
 					<div className="flex gap-20">
 						<div>Atsiliepimai</div>
 						<div>Projektai</div>

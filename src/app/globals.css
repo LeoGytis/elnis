@@ -32,5 +32,7 @@ body {
 }
 
 .shadow-right-bottom-small {
+	border: 3px solid black;
+	border-radius: 9999px;
 	box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 1);
 }
