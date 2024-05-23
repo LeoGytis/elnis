@@ -30,10 +30,10 @@ export const ContactsContainer = () => {
 						</div>
 					</div>
 					<div className="flex gap-[38px] text-[28px] ">
-						<div className="bg-white rounded-full border-4 border-black shadow-right-bottom-small px-6 py-3">
+						<div className="bg-white rounded-full border-4 border-black hover-shadow px-6 py-3">
 							+370 623 06955
 						</div>
-						<div className="bg-white rounded-full border-4 border-black shadow-right-bottom-small px-6 py-3">
+						<div className="bg-white rounded-full border-4 border-black hover-shadow px-6 py-3">
 							info@elnis.lt
 						</div>
 					</div>

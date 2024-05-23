@@ -7,9 +7,9 @@ export const SubscribeContainer = () => {
 			<div className="w-[776px] relative pb-6">
 				<input
 					placeholder="Įveskite savo el pašto adresą"
-					className="w-full h-16 text-[15px] placeholder-[#333333]  border-8 border-black rounded-full shadow-right-bottom-small p-[36px]"
+					className="w-full h-16 text-[15px] placeholder-[#333333]  border-[3px] border-black rounded-full shadow-small p-[36px]"
 				/>
-				<button className="absolute top-2 right-[-80px] bg-[#FF4911] text-white text-lg font-bold p-2 px-8 shadow-right-bottom-small">
+				<button className="absolute top-2 right-[-80px] bg-[#FF4911] text-white text-lg font-bold p-2 px-8 borer rounded-full hover-shadow">
 					<div className="flex gap-4 items-center ">
 						Prenumeruoti
 						<IoIosArrowRoundForward className="text-4xl" />

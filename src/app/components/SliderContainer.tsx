@@ -10,19 +10,19 @@ export const SliderContainer = () => {
 				<Image src={brands} alt="Logo" width={1800} height={40} priority />
 			</div>
 			<div className="max-w-screen-xl flex gap-8">
-				<div className="w-1/3 h-[390px]  border-[3px] border-black rounded bg-[#FFC900] shadow-right-bottom px-[45px] py-8">
+				<div className="w-1/3 h-[390px]  border-[3px] border-black rounded bg-[#FFC900] shadow-big px-[45px] py-8">
 					<h1 className="text-2xl font-bold pb-8">TANDEMO</h1>
 					<p className="pb-8">Ačiū, puikus darbas, tikiuosi daugiau ateityje!</p>
 					<p>Paulius Sanajevas</p>
 					<p>— Tandemo —</p>
 				</div>
-				<div className="w-1/3 h-[390px] border-[3px] border-black rounded bg-[#90A8ED] shadow-right-bottom px-[45px] py-8">
+				<div className="w-1/3 h-[390px] border-[3px] border-black rounded bg-[#90A8ED] shadow-big px-[45px] py-8">
 					<h1 className="text-2xl font-bold pb-8">EXTERUS</h1>
 					<p className="pb-8">Dirbti su jumis yra gera ir profesionalu. Turėsime dar daug reikalų</p>
 					<p>Audrius Valatkevičius</p>
 					<p>— Exterus —</p>
 				</div>
-				<div className="w-1/3 h-[390px] font-light border-[3px] border-black rounded bg-[#E2442F] shadow-right-bottom px-[45px] py-8">
+				<div className="w-1/3 h-[390px] font-light border-[3px] border-black rounded bg-[#E2442F] shadow-big px-[45px] py-8">
 					<h1 className="text-2xl font-bold text-white pb-8">Jurgis DID</h1>
 					<p className="pb-6">
 						“Fantastiškai produktyvu, profesionalu ir operatyvu. Labiausiai žavi tai, kad kliento problemos,
