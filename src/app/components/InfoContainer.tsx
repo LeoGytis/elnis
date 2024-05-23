@@ -48,16 +48,16 @@ export const InfoContainer = () => {
 			<article className="w-1/3 h-[552px] flex flex-col justify-between">
 				<h1 className="text-[32px] font-semibold">Žymų debesis</h1>
 				<div className="flex flex-wrap gap-6">
-					<HeaderButton color={getRandomColor()} text="El.parduotuvė" />
-					<HeaderButton color={getRandomColor()} text="SSL" />
-					<HeaderButton color={getRandomColor()} text="Atnaujinimas" />
-					<HeaderButton color={getRandomColor()} text="Skaičiuoklė" />
-					<HeaderButton color={getRandomColor()} text="El. svetainė" />
-					<HeaderButton color={getRandomColor()} text="Priežiūra" />
-					<HeaderButton color={getRandomColor()} text="Pagalba" />
-					<HeaderButton color={getRandomColor()} text="Kontaktai" />
-					<HeaderButton color={getRandomColor()} text="Klausimynas" />
-					<HeaderButton color={getRandomColor()} text="Straipsniai" />
+					<HeaderButton color={"#FF4911"} text="El.parduotuvė" />
+					<HeaderButton color={"#F67B0980"} text="SSL" />
+					<HeaderButton color={"#5A643880"} text="Atnaujinimas" />
+					<HeaderButton color={"#4C16C180"} text="Skaičiuoklė" />
+					<HeaderButton color={"#3ADA2080"} text="El. svetainė" />
+					<HeaderButton color={"#10111180"} text="Priežiūra" />
+					<HeaderButton color={"#F67B0980"} text="Pagalba" />
+					<HeaderButton color={"#FFE76780"} text="Kontaktai" />
+					<HeaderButton color={"#6EFFE580"} text="Klausimynas" />
+					<HeaderButton color={"#FF0000E0"} text="Straipsniai" />
 				</div>
 			</article>
 		</section>
