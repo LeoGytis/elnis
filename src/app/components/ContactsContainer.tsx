@@ -30,10 +30,10 @@ export const ContactsContainer = () => {
 						</div>
 					</div>
 					<div className="flex gap-[38px] text-[28px] ">
-						<div className="bg-white rounded-full border-4 border-black hover-shadow px-6 py-3">
+						<div className="bg-white sitas rounded-full border-[3px] border-black hover-shadow px-6 py-3">
 							<a href="tel:+37062306955">+370 623 06955</a>
 						</div>
-						<div className="bg-white rounded-full border-4 border-black hover-shadow px-6 py-3">
+						<div className="bg-white sitas rounded-full border-[3px] border-black hover-shadow px-6 py-3">
 							<a href="mailto:info@elnis.lt">info@elnis.lt</a>
 						</div>
 					</div>
