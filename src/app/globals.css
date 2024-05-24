@@ -41,7 +41,7 @@ body {
 
 .hover-shadow {
 	cursor: pointer;
-	transition: border 0.3s ease, border-radius 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+	transition: all 300ms;
 	&:hover {
 		border: 3px solid black;
 		border-radius: 9999px;
