@@ -49,3 +49,16 @@ body {
 		transform: translate(-1px, -1px);
 	}
 }
+
+.slide-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}

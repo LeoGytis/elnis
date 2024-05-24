@@ -15,19 +15,32 @@ export default function SlideShow() {
 		dots: false,
 		infinite: true,
 		speed: 500,
-		slidesToShow: 4,
+		slidesToShow: 6,
 		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
 	};
 
 	const images = [deer, deer2, deer3, deer4, deer5, deer6, deer7, deer8];
 
 	return (
-		<Slider {...settings}>
-			{images.map((image, index) => (
-				<div key={index}>
-					<Image src={image} alt={`Deer ${index + 1}`} width={200} height={200} />
-				</div>
-			))}
-		</Slider>
+		<div className="px-10 py-5">
+			<Slider {...settings}>
+				{images.map((image, index) => (
+					<div key={index} className="h-48 !flex justify-center items-center px-10 py-5  overflow-hidden">
+						<div className="flex justify-center items-center">
+							<Image
+								src={image}
+								alt={`Deer ${index + 1}`}
+								key={index}
+								// width={200}
+								// height={200}
+								// objectFit="contain"
+							/>
+						</div>
+					</div>
+				))}
+			</Slider>
+		</div>
 	);
 }

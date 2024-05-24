@@ -1,8 +1,5 @@
 "use client";
-import Image from "next/image";
 import {FaRegCircle} from "react-icons/fa6";
-import brands from "../../../public/images/brands.png";
-import brands2 from "../../../public/images/brands2.png";
 import SlideShow from "./SlideShow";
 
 export const SliderContainer = () => {
